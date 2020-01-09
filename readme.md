@@ -1,12 +1,10 @@
--- remove need for COSMO (change nii to mat)
--- add brain connectivity toolbox
 -- change atlas to one with smaller ROIs?
 
 # README
 
 This repo provides MATLAB code for using informational connectivity to construct whole-brain networks.
 
-Tested on macOS 10.13.6 with MATLAB R2015B and macOS ##.##.# with MATLAB R2019A. 
+Tested on macOS 10.13.6 with MATLAB R2015B and R2019A. 
 
 Required software:
 * MATLAB
@@ -15,6 +13,10 @@ Required toolboxes (provided in repo):
 * CoSMoMVPA (http://github.com/CoSMoMVPA/CoSMoMVPA)
 * IC toolbox (http://informationalconnectivity.org)
 * Brain Connectivity toolbox (https://sites.google.com/site/bctnet/)
+
+## Usage
+
+The main demo is provided in **"analyze_IC_brainnetome.m"**
 
 ## Data and timing information
 
@@ -40,16 +42,9 @@ Data was denoised using the CONN toolbox, which included:
 * band-pass filtering
 
 
-```bash
-ds = cosmo_fmri_dataset(data_path);
-data = ds.samples';
-```
-
 ## ROI information
 
 
-
-## Usage
 
 
 
