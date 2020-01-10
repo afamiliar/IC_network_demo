@@ -1,4 +1,5 @@
 -- change atlas to one with smaller ROIs?
+-- redo pre-proc without spatial smoothing
 
 # README
 
