@@ -1,9 +1,9 @@
--- change atlas to one with smaller ROIs?
--- redo pre-proc without spatial smoothing
-
 # README
+		Author: Ariana Familiar
+ 		January 10, 2020
+ 		University of Pennsylvania
 
-This repo provides MATLAB code for using informational connectivity to construct whole-brain networks with functional MRI data.
+This repo provides MATLAB code for using informational connectivity (IC) to construct whole-brain networks with functional MRI data.
 
 Tested on macOS 10.13.6 with MATLAB R2015B and R2019A. 
 
@@ -17,7 +17,8 @@ Required toolboxes (provided in repo):
 
 ## Usage
 
-The main demo is provided in **"analyze_IC_brainnetome.m"**
+The demo to calculate IC networks is provided in **analyze_IC_brainnetome.m**
+The demo to run graph analyses on resulting IC networks is provided in **analyze_network.m**
 
 Details on how to set up input for IC toolbox can be found in **run_ROI_IC.m** in **toolboxes/IC_toolbox/**. **create_** scripts within directories show how inputs were created for the demo.
 
@@ -46,14 +47,5 @@ Data was denoised using the CONN toolbox, which included:
 
 ## Atlas/ROI information
 
-
-
-
-
-
-
-
-
-
-
+ROIs were created based on the Brainnetome Atlas (http://www.brainnetome.org/) in MNI coordinate space. There are 105 regions per hemisphere (left/right). See **create_IC_ROI_files.m** in **brainnetome_ROI/** for demo on creating ROI files for IC toolbox.
 

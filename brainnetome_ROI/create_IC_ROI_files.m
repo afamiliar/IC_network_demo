@@ -19,7 +19,7 @@
 %%
 
 % make sure cosmo-mvpa toolbox is on matlab path
-addpath(genpath('/Users/afam/Documents/MATLAB/CoSMoMVPA-master'));
+addpath(genpath('../toolboxes/'));
 
 atlas_fn = 'BN_Atlas_246_2mm.nii.gz';
 

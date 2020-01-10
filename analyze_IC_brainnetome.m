@@ -2,6 +2,11 @@
 %   amf
 %   Nov 2019
 %
+%       - Loads nifti data file using cosmomvpa toolbox
+%       - Calculates IC for regions in user-defined hemispheres 
+%           using IC toolbox
+%       - Saves result to mat file
+%
 %% user defined
 
 hemispheres = {'LH','RH'}; % 'LH' and/or 'RH'
