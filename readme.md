@@ -18,9 +18,12 @@ Required toolboxes (provided in repo):
 ## Usage
 
 The demo to calculate IC networks is provided in **analyze_IC_brainnetome.m**
+
 The demo to run graph analyses on resulting IC networks is provided in **analyze_network.m**
 
-Details on how to set up input for IC toolbox can be found in **run_ROI_IC.m** in **toolboxes/IC_toolbox/**. **create_** scripts within directories show how inputs were created for the demo.
+Details on how to set up input for IC toolbox can be found in **run_ROI_IC.m** in **toolboxes/IC_toolbox/**
+
+**create_** scripts within directories show how inputs were created for the demo.
 
 ## Data and timing information
 
